@@ -6,10 +6,17 @@ repositories{
 
 dependencies {
     implementation 'org.testng:testng:7.3.0'
-    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-7'
     implementation 'com.google.guava:guava:25.0-jre'
     testImplementation 'io.rest-assured:rest-assured:4.4.0'
     implementation 'org.hamcrest:java-hamcrest:2.0.0.0'
+    testImplementation 'com.codeborne:selenide:5.24.3'
+    testImplementation 'org.slf4j:slf4j-log4j12:1.7.32'
+    implementation 'org.hamcrest:java-hamcrest:2.0.0.0'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0-rc2'
+
+
+
+
 
 }
 
