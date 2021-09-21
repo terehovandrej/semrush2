@@ -8,7 +8,7 @@ import ru.semrush.model.Posts;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
-public class TestSemrushBlogPage extends MainPage {
+public class TestSemrushBlogPage{
     MainPage mainPage = new MainPage();
     BlogPage blogPage = new BlogPage();
 

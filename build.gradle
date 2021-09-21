@@ -4,6 +4,11 @@ repositories{
     mavenCentral()
 }
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_16
+    targetCompatibility = JavaVersion.VERSION_16
+}
+
 dependencies {
     implementation 'org.testng:testng:7.3.0'
     implementation 'com.google.guava:guava:25.0-jre'
